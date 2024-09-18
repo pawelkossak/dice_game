@@ -9,10 +9,10 @@ if (losowa > losowa1){
     document.querySelector("#title h1").textContent = "👈😼 PLAYER ONE WINS"
 }
 
-if (losowa < losowa1){
+else if (losowa < losowa1){
     document.querySelector("#title h1").textContent = "PLAYER TWO WINS 😼👉"
 }
 
-if (losowa1 === losowa) {
+else {
     document.querySelector("#title h1").textContent = "🙀 DRAW 🙀"
 }
