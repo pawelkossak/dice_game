@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: #ffe6ee;
+}
+
+#title > h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 40px;
+
+}
+
+#dices {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+
+.player h1 {
+    font-weight: 500;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#footer > h1 {
+    font-weight: 500;
+    
+}
+
+
+@media (max-width: 1250px){
+    #dices {
+        justify-content: space-around;
+    }
+}
+
